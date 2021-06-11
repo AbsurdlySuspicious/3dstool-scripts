@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -ex
 
 3dstool -xvt01267f cci part0.bin part1.bin part2.bin part6.bin part7.bin "$1" --header HeaderNCSD.bin
